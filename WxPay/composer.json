@@ -1,0 +1,29 @@
+{
+  "name": "tp5.1/WxPay",
+  "description": "tp5.1的微信支付",
+  "homepage": "https://github.com/dong670230/gaod/tp5.1/wxPay/WxPay",
+  "authors": [
+    {
+      "name": "gaod",
+      "email": "1175409005@qq.com",
+      "role": "Developer"
+    },
+    {
+      "name": "gaod",
+      "email": "1175409005@qq.com",
+      "role": "Developer"
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      " WxPay\\lib\\": "WxPay"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": " 4.8.35"
+  }
+}
